@@ -41,8 +41,18 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.about__card h5 {
+  font-size: 0.95rem;
 }
