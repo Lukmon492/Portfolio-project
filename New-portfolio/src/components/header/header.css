@@ -8,7 +8,38 @@ header {
   height: 100%;
   position: relative;
 }
-
+.text-enlarge span {
+  display: inline-block;
+  transition: var(--transition);
+}
+.text-enlarge span::first-letter {
+  color: rgba(255, 255, 255, 0.6);
+}
+.text-enlarge:hover {
+  font-weight: 400;
+  line-height: 82px;
+  font-size: 3.4rem;
+}
+.text-light {
+  transition: var(--transition);
+}
+.text-light:hover div {
+  display: none;
+}
+.text-light span {
+  display: inline-block;
+  font-size: 9px;
+  margin: 0 4px;
+}
+.text-light:hover::before {
+  display: inline-block;
+  content: "javascript | react";
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 0.6);
+}
 /* ========= CTA ========== */
 .cta {
   margin-top: 2.5rem;
