@@ -9,7 +9,7 @@
   background: linear-gradient(
     45deg,
     transparent,
-    var(--color-primary),
+    /* var(--color-primary) */ transparent,
     transparent
   );
   display: grid;
@@ -17,6 +17,7 @@
   place-items: center;
 }
 .about__me-image {
+  height: 25rem;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
