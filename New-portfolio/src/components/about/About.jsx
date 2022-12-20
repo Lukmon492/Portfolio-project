@@ -37,10 +37,14 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
-            ipsum adipisci suscipit delectus? Obcaecati quaerat voluptatibus
-            molestiae tempora at beatae unde accusantium fugiat hic libero!
-            Laudantium soluta facere beatae et.
+            Software Engineer with proven experience at Cwitch and Afrobit in
+            helping companies create and maintain a better code base for
+            reusability. Capable of continuous learning from senior developers
+            while still nurturing junior developers.
+          </p>
+          <p>
+            Experience in driving projects forward as the development team
+            leader, facilitating projects from concept to launch.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
